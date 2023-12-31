@@ -16,11 +16,11 @@ Un server web con supporto PHP (come Apache o Nginx).
 Un database MySQL.
 Una chiave API per Bing Maps Geocoding API.
 <h1>Configurazione</h1>
-<h1></h1>Configurazione del Database</h1>
+<h3>Configurazione del Database</h3>
 <ul>
-    <li>Crea un database MySQL.</li>
-<li>All'interno del database, crea una tabella denominata geolocations con la seguente struttura:</li>
-</ul>
+<li>Crea un database MySQL.</li>
+<li>All'interno del database, crea una tabella denominata geolocations con la seguente struttura:
+
 ```
 CREATE TABLE geolocations (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -30,6 +30,8 @@ CREATE TABLE geolocations (
     timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 ```
+</li>
+</ul>
 <h1>Configurazione del Backend</h1>
 Modifica il file geocode.php inserendo le tue credenziali di accesso al database MySQL nelle variabili $db_username, $db_password e $dbname.
 <h1>Configurazione API Key</h1>
