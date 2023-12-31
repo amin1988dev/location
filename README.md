@@ -31,7 +31,7 @@ CREATE TABLE geolocations (
 ```
 <h1>Configurazione del Backend</h1>
 Modifica il file geocode.php inserendo le tue credenziali di accesso al database MySQL nelle variabili $db_username, $db_password e $dbname.
-<h1></h1>Configurazione API Key</h1>
+<h1>Configurazione API Key</h1>
 Sostituisci LA_TUA_CHIAVE_API con la tua chiave API di Bing Maps nel file geocode.php.
 <h1>Utilizzo</h1>
 Per utilizzare l'applicazione, apri index.php in un browser web. Dovresti vedere la tua posizione (latitudine e longitudine) e l'indirizzo corrispondente visualizzati sulla pagina.
