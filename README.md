@@ -9,3 +9,9 @@ HTML e JavaScript per il frontend.
 PHP e PDO per il backend.
 MySQL per il database.
 Bing Maps Geocoding API.
+<h1>Prerequisiti</h1>
+Per eseguire questo progetto, avrai bisogno di:
+
+Un server web con supporto PHP (come Apache o Nginx).
+Un database MySQL.
+Una chiave API per Bing Maps Geocoding API.
