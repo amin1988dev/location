@@ -20,7 +20,8 @@ Configurazione del Database
 Crea un database MySQL denominato my_webamin.
 All'interno del database, crea una tabella denominata geolocations con la seguente struttura:
 
-```CREATE TABLE geolocations (
+```
+CREATE TABLE geolocations (
     id INT AUTO_INCREMENT PRIMARY KEY,
     latitude DECIMAL(10, 8),
     longitude DECIMAL(11, 8),
