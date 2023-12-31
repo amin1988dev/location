@@ -15,3 +15,14 @@ Per eseguire questo progetto, avrai bisogno di:
 Un server web con supporto PHP (come Apache o Nginx).
 Un database MySQL.
 Una chiave API per Bing Maps Geocoding API.
+<h1>Configurazione</h1>
+Configurazione del Database
+Crea un database MySQL denominato my_webamin.
+All'interno del database, crea una tabella denominata geolocations con la seguente struttura:
+CREATE TABLE geolocations (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    latitude DECIMAL(10, 8),
+    longitude DECIMAL(11, 8),
+    address VARCHAR(255),
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
