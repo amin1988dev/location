@@ -17,7 +17,7 @@ Un database MySQL.
 Una chiave API per Bing Maps Geocoding API.
 <h1>Configurazione</h1>
 Configurazione del Database
-Crea un database MySQL denominato my_webamin.
+Crea un database MySQL.
 All'interno del database, crea una tabella denominata geolocations con la seguente struttura:
 
 ```
